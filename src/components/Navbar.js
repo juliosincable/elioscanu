@@ -1,7 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
+
 import logo from '../img/logo.svg'
+import facebook from '../img/facebook.svg'
+import twitter from '../img/twitter.svg'
+import linkedin from '../img/linkedin.svg'
+import instagram from '../img/instagram.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -72,22 +76,62 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact">
                 Contact
               </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
+            
             </div>
-            <div className="navbar-end has-text-centered">
+            <div className="navbar-end">
+              
+              
               <a
                 className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                href="https://facebook.com/chefscanu"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={github} alt="Github" />
+                  <img src={facebook} alt="Facebook" />
                 </span>
               </a>
+            
+
+            
+              <a
+                className="navbar-item"
+                href="https://twitter.com/chefscanu"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <img src={twitter} alt="Twitter" />
+                </span>
+              </a>
+              
+              
+              <a
+                className="navbar-item"
+                href="https://www.linkedin.com/in/elioscanu/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <img src={linkedin} alt="Linkedin" />
+                </span>
+              </a>
+              
+              
+              <a
+                className="navbar-item"
+                href="https://instagram.com/chefscanu"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <img src={instagram} alt="Instagram" />
+                </span>
+              </a>
+            
+            
             </div>
+
           </div>
         </div>
       </nav>
